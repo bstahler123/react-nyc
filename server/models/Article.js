@@ -1,9 +1,9 @@
-// TODO: Add comments here. What is the purpose of these dependencies?
+// Mongoose gives us access to mongoDB and works like an ORM 
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-// TODO: Add comment here. What is the purpose of this model??
-// TODO: Explain what this model would generate in our Mongo database.
+// This will create new schemas for each article we scrape. 
+
 var ArticleSchema = new Schema({
     title: {
         type: String
